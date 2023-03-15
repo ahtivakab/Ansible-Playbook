@@ -1,6 +1,6 @@
 ---
 - name: Install tomcat
-  hosts: appservers
+  hosts: all
   become: true
   tasks:
     - name: Upadte the latest version of Apache
