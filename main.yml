@@ -1,6 +1,6 @@
 ---
 - name: Install tomcat
-  hosts: all
+  hosts: lccalhost
   become: true
   tasks:
     - name: Upadte the latest version of Apache
